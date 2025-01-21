@@ -1,9 +1,10 @@
 print("Sveiks!")
-a = int(input())
-b = int(input())
-cip1 = a%10
-cip2 = a%10
-
-
+skaitlis = int(input(Ievadi k-ko "))
+if skaitlis>0:
+    print("Skaitlis pozitīvs")
+elif skaitlis==0:
+    print("Skaitlis ir 0")
+else:
+    print("Skaitlis ir negatīvs")
 
 
